@@ -1,0 +1,201 @@
+<!--
+	This Basic theme serves as an example for how to create other
+	themes by demonstrating the features with minimal HTML and CSS.
+	Comments like this will be through the code to explain briefly
+	what each feature is and point you to the MkDocs documentation
+	to find out more.
+-->
+<!DOCTYPE html>
+<head>
+	
+	<meta charset="UTF-8" />
+	
+	<!--
+		The page_title contains the title for a page as shown in the navigation.
+		Site name contains the name as defined in the mkdocs.yml
+	-->
+	<title>My Docs</title>
+
+	<!--
+		Support custom favicon support.
+		http://www.mkdocs.org/user-guide/configuration/#site_favicon
+	-->
+	
+		<link rel="shortcut icon" href="./img/favicon.ico">
+	
+
+	<!--
+		You can include external assets of course, but be aware that it means the
+		documentation may not work well offline.
+	-->
+	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+
+	<link rel="stylesheet" href="./css/theme.css">
+
+	<!--
+		extra_ess contains paths to CSS files in the users
+		documentation directory or a list of CSS files defined in
+		their mkdocs.yml.
+
+		http://www.mkdocs.org/user-guide/configuration/#extra_css
+	-->
+	
+
+	<link rel="stylesheet" href="./css/darkula.css">
+	<script src="./js/highlight.pack.js"></script>
+	
+	<!--
+		Include Google Analytics tracking code.
+
+		http://www.mkdocs.org/user-guide/configuration/#google_analytics
+	-->
+	
+
+	
+	
+</head>
+
+<body>
+
+	<div class="sidebar left">
+
+		<ul>
+		
+			
+				
+				
+
+	<li class="active">
+	
+		<a href=".">Home</a>
+		
+	</li>
+
+
+			
+			
+		
+		</ul>
+		
+	</div>
+	
+	<div class="body rel right">
+	
+		<header>
+		
+			<div class="right">
+			
+				<h1>My Docs</h1>
+			
+			</div>
+		
+			<div role="search" class="left">
+			
+				<form action="./search.html" class="rel" method="get">
+				
+					<input type="text" name="q" placeholder="جستجو" />
+					
+					<input type="submit" class="abs search-submit" value="" />
+					
+				</form>
+				
+			</div>
+		
+		</header>
+		
+		<main class="rel oh">
+		
+			
+		
+				<div class="left toc">
+				
+					<ul>
+						
+						
+							
+							<li class="title">
+							
+								<a href="#welcome-to-mkdocs">Welcome to MkDocs</a>
+								
+							</li>
+							
+							
+								
+								<li class="sub-title">
+								
+									<a href="#commands">Commands</a>
+									
+								</li>
+							
+							
+								
+								<li class="sub-title">
+								
+									<a href="#project-layout">Project layout</a>
+									
+								</li>
+							
+							
+							
+						
+						
+					</ul>
+					
+				</div>
+			
+			
+			
+			<div class="right content">
+		
+				
+					
+					<h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
+<p>For full documentation visit <a href="http://mkdocs.org">mkdocs.org</a>.</p>
+<h2 id="commands">Commands</h2>
+<ul>
+<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
+<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
+<li><code>mkdocs build</code> - Build the documentation site.</li>
+<li><code>mkdocs help</code> - Print this help message.</li>
+</ul>
+<h2 id="project-layout">Project layout</h2>
+<pre><code>mkdocs.yml    # The configuration file.
+docs/
+    index.md  # The documentation homepage.
+    ...       # Other markdown pages, images and other files.
+</code></pre>
+				
+				
+
+			</div>
+
+		</main>
+	
+		<footer class="oh">
+		
+			
+			
+			<a class="right" href="http://www.mkdocs.org">ساخته شده توسط: MkDocs.</a>
+
+		</footer>
+	
+	</div>
+	
+	<!--
+		To include static assets from our theme, just add
+		. beforehand which will be the relative path to
+		the root of the documentation.
+	-->
+	<script src="./js/theme.js"></script>
+
+	<!--
+		extra_javascript contains paths to JavaScript files in the
+		users documentation directory or a list of JavaScript files
+		defined in their mkdocs.yml.
+
+		http://www.mkdocs.org/user-guide/configuration/#extra_javascript
+	-->
+	
+
+</body>
+</html>
